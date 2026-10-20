@@ -4,6 +4,19 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
+    min-height: 100vh;
 }
 
 /* Start with Header and Top Links */
+.box1 {
+    display: flex;
+}
+.header {
+    margin: 0 8px;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
