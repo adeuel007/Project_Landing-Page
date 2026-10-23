@@ -1,22 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-body {
-    display: flex;
-    flex-direction: column;
+/* Global Elements */
+*{
     font-family: Roboto;
+}
+body {
+    margin: 0px;
+    padding: 0px;
     min-height: 100vh;
 }
 
-/* Start with Header and Top Links */
-.box1 {
-    display: flex;
-}
-.header {
-    margin: 0 8px;
-}
 ul {
     list-style: none;
-    text-decoration: none;
     display: flex;
     justify-content: flex-end;
+    gap: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Applied Styles */
+
+body { 
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header { 
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .header, .links, .hero, .hero-secondary, .footer {
+    background-color: #1F2937; 
+} */
+
+.footer {
+    color: red;
+    display: flex;
+}
+
+.links {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.hero {
+    font-size: 36px;
+}
+button {
+    max-width: 100px;
+    border-radius: 6px;
+    background-color: #3882F6;
+}
+
+.hero, .hero-secondary, .banner {
+    flex:1;
+    display: flex;
+    
 }
