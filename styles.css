@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 1024px;
 }
 
 ul {
@@ -31,7 +30,10 @@ a {
 .header { 
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     font-size: 24px;
+    color: white;
+    margin: 8px;
 }
 
 .body {
@@ -51,21 +53,26 @@ a {
 }
 
 .links {
-    margin: 0px;
+    margin: 8px;
     padding: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 0 60px;
 }
 .container2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 0 60px;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 60px;
     background-color: #1F2937;
+    color: white;
 }
 .hero {
     font-size: 36px;
